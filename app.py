@@ -2,6 +2,7 @@ import time
 from messages import *
 
 msg = Messages()
+pessoa = Entity()
 
 msg.introduction()
 
@@ -17,7 +18,7 @@ while msg.escolha != msg.cont:
 	print("6 - Sair do programa")
 
 	msg.escolha = int(input("Escolha um valor: "))
-	
+
 	msg.switch(msg.escolha)
 
 input("Aperte enter para fechar")

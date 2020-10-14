@@ -1,4 +1,7 @@
 import time
+from entity import *
+
+pessoa = Entity()
 
 class Messages:
 
@@ -21,37 +24,55 @@ class Messages:
 	def switch(self, escolha):
 
 		if self.escolha == 1:
-			print("Escolheu 1")
+			print("")
 
+			print("Aguarde um instante...")
+			time.sleep(3)
 
+			pessoa.cadastrar()
 			# # # # # # # #
 			print("")
 		elif self.escolha == 2:
-			print("Escolheu 2")
+			print("")
 
+			print("Aguarde um instante...")
+			time.sleep(3)
 
+			pessoa.editar()
 			# # # # # # # #
 			print("")
 		elif self.escolha == 3:
-			print("Escolheu 3")
+			print("")
+
+			print("Aguarde um instante...")
+			time.sleep(3)
 
 
 			# # # # # # # #
 			print("")
 		elif self.escolha == 4:
-			print("Escolheu 4")
+			print("")
+
+			print("Aguarde um instante...")
+			time.sleep(3)
 
 
 			# # # # # # # #
 			print("")
 		elif self.escolha == 5:
-			print("Escolheu 5")
+			print("")
+
+			print("Aguarde um instante...")
+			time.sleep(3)
 
 
 			# # # # # # # #
 			print("")
 		elif self.escolha == 6:
-			print("Escolheu 6")
+			print("")
+
+			print("Aguarde um instante...")
+			time.sleep(3)
 
 
 			# # # # # # # #
