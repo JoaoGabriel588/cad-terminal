@@ -115,8 +115,6 @@ class Entity:
 		print("O programa não terá nenhuma atualização ou modificação, é apenas uma base de de como funciona o cadastro de uma pessoa em uma empresa ou departaento.")
 		print("O código-fonte estará disponível no Github do criador (JoaoGabriel588), e pode ser analisado para fins de confiança sobre a inserção de dados como CPF.")
 		print("")
-		print("O programa funciona a base de escolhas numéricas e das palavras Sim e Não (somente nesse formato), então tenha um bom proveito e acompanhe os trabalhos do criador no Github.")
-		print("Qualquer report ou erro comunique ao email: joao.silva588@aluno.ce.gov.br - Github: JoaoGabriel588")
 		print("Todos os direitos reservados ao Criador do sistema - JGBS")
 
 	def exit(self):
