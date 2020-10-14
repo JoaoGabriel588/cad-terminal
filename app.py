@@ -1,13 +1,11 @@
 import time
 from messages import *
 
-cont = 0
-
 msg = Messages()
 
 msg.introduction()
 
-while cont != msg.n_help:
+while msg.escolha != msg.cont:
 
 	print("- - - - MENU DE CADASTRO - - - -")
 
@@ -22,4 +20,4 @@ while cont != msg.n_help:
 	
 	msg.switch(msg.escolha)
 
-	input("")
+input("Aperte enter para fechar")
