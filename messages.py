@@ -20,6 +20,7 @@ class Messages:
 
 		print("Aguarde...")
 		time.sleep(5)
+		print("")
 
 	def switch(self, escolha):
 
@@ -29,7 +30,7 @@ class Messages:
 			print("Aguarde um instante...")
 			time.sleep(3)
 
-			pessoa.cadastrar()
+			pessoa.create()
 			# # # # # # # #
 			print("")
 		elif self.escolha == 2:
@@ -38,7 +39,7 @@ class Messages:
 			print("Aguarde um instante...")
 			time.sleep(3)
 
-			pessoa.editar()
+			pessoa.edit()
 			# # # # # # # #
 			print("")
 		elif self.escolha == 3:
@@ -47,7 +48,7 @@ class Messages:
 			print("Aguarde um instante...")
 			time.sleep(3)
 
-
+			pessoa.viewer()
 			# # # # # # # #
 			print("")
 		elif self.escolha == 4:
@@ -56,7 +57,7 @@ class Messages:
 			print("Aguarde um instante...")
 			time.sleep(3)
 
-
+			pessoa.delete()
 			# # # # # # # #
 			print("")
 		elif self.escolha == 5:
@@ -65,7 +66,7 @@ class Messages:
 			print("Aguarde um instante...")
 			time.sleep(3)
 
-
+			pessoa.helper()
 			# # # # # # # #
 			print("")
 		elif self.escolha == 6:
@@ -74,6 +75,6 @@ class Messages:
 			print("Aguarde um instante...")
 			time.sleep(3)
 
-
+			pessoa.exit()
 			# # # # # # # #
 			print("")

@@ -2,7 +2,6 @@ import time
 from messages import *
 
 msg = Messages()
-pessoa = Entity()
 
 msg.introduction()
 
